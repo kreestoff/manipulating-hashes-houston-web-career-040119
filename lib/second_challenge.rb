@@ -6,10 +6,10 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   just_values = []
-  just_values << groceries[dairy].values
-  just_values << groceries[vegetable].values
-  just_values << groceries[meat].values
-  just_values << groceries[grains].values
+  just_values << groceries[:dairy].values
+  just_values << groceries[:vegetable].values
+  just_values << groceries[:meat].values
+  just_values << groceries[:grains].values
   just_values.flatten
   just_values
 end
