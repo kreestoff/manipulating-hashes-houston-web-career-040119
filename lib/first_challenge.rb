@@ -14,8 +14,8 @@ def first_challenge
   }
 
   contacts.each do |person, data|
-    if person == "Freddy Mercury"
-    data.each do |info, data2|
+
+    da
       if info == favorite_icecream_flavors
         if data2 == "strawberry"
           data2.delete_if
@@ -23,10 +23,6 @@ def first_challenge
       end
     end
   end
-      
-
-
-  
   contacts
 end
 
