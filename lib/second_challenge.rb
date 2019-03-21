@@ -5,8 +5,12 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
-  #code your solution here!
+  just_values = []
+  just_values << groceries[dairy].values
+  just_values << groceries[vegetable].values
+  just_values << groceries[meat].values
+  just_values << groceries[grains].values
+  just_values.
 
   
 
